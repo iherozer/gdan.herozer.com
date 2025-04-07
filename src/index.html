@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <title>herozer</title>
+
+    <link rel="icon" type="image/png" href="images/logo.png">
+
+    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+    <script type="module" crossorigin src="js/app.js"></script>
+
+    <link rel="stylesheet" crossorigin href="app.css">
+</head>
+
+<body x-data="{}">
+    <video class="fixed min-w-full min-h-screen flex justify-center items-center z-[-1] object-cover"
+        src="images/background.mp4" loop autoplay muted class="h-screen w-auto object-cover"></video>
+
+    <div x-data="{}" class="w-full flex flex-col justify-center items-center bg-gradient-to-b py-10">
+        <div
+            class="text-white w-full max-w-3xl text-center rounded-lg p-10 bg-opacity-40 backdrop-blur-lg bg-gray-800 shadow-2xl ">
+            <image src="images/allNighterBanner.png" class="text-5xl font-extrabold mb-6 bg-clip-text text-transparent" />
+            <p class="text-xl mb-10 text-gray-300">I make Geometry Dash content and levels!</p>
+
+
+
+            <br />
+
+            <!-- Videos -->
+            <div>
+                <!-- <div x-youtube-embed x-video-id="" x-title="Latest Video"></div> -->
+
+            </div>
+
+
+            <!-- Level Submissions -->
+            <div x-large-button x-color="bg-blue-600"
+                x-link="https:\/\/forms.gle/MmsDCHWbJqFyoXvM9" x-title="Level Submissions">
+                <svg fill="transparent" stroke="white" viewBox="0 0 48.00 48.00" xmlns="http://www.w3.org/2000/svg"
+                    stroke-width="3" class="h-8 w-8">
+                    <rect class="a" x="9.5043" y="9.5043" width="28.9914" height="28.9914"
+                        transform="translate(-9.9411 24) rotate(-45)"></rect>
+                    <rect class="a" x="12.7707" y="22.0809" width="5.4849" height="5.4849"
+                        transform="translate(-13.009 18.24) rotate(-45)"></rect>
+                    <rect class="a" x="21.7365" y="13.115" width="5.4849" height="5.4849"
+                        transform="translate(-4.0432 21.9538) rotate(-45)"></rect>
+                    <rect class="a" x="18.1422" y="25.9303" width="19.5888" height="4.7013"
+                        transform="translate(-11.8152 28.0375) rotate(-45)"></rect>
+                </svg>
+            </div>
+
+            <!-- Donations -->
+            <div x-large-button x-color="bg-green-400" x-link="#"
+                x-title="Donations">
+                <svg class="h-8 w-8 text-white 0 transition-colors" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff" version="1.1" id="Capa_1"
+                    viewBox="0 0 490.2 490.2" xml:space="preserve">
+                    <g>
+                        <g>
+                            <path
+                                d="M137.9,245.05c0,46.6,37.8,84.4,84.4,84.4s84.4-37.8,84.4-84.4s-37.8-84.4-84.4-84.4S137.9,198.45,137.9,245.05z     M229.7,194.55c0,5.1,0,5.1,5.1,5.9c3.9,0.6,7.6,1.8,11.3,3.4c2,0.9,2.7,2.3,2.1,4.4c-0.9,3.1-1.8,6.3-2.8,9.4    c-0.9,2.9-1.9,3.4-4.7,2c-5.7-2.7-11.6-3.9-17.9-3.5c-1.6,0.1-3.2,0.3-4.8,1c-5.4,2.4-6.3,8.3-1.7,12c2.3,1.9,5,3.2,7.7,4.4    c4.8,2,9.6,3.9,14.1,6.4c14.5,8,18.4,26.2,8.2,38.6c-3.7,4.5-8.5,7.5-14.1,9c-2.4,0.7-3.5,1.9-3.4,4.5c0.1,2.5,0,5,0,7.5    c0,2.2-1.1,3.4-3.3,3.5c-2.7,0.1-5.4,0.1-8,0c-2.4,0-3.5-1.4-3.5-3.7c0-1.8,0-3.6,0-5.5c0-4-0.2-4.2-4-4.8    c-4.9-0.8-9.8-1.9-14.3-4.1c-3.6-1.7-3.9-2.6-2.9-6.3c0.8-2.8,1.5-5.5,2.4-8.3c1-3.2,1.9-3.6,4.8-2.1c5,2.6,10.3,4.1,15.9,4.8    c3.6,0.4,7.1,0.1,10.4-1.4c6.2-2.7,7.2-9.9,1.9-14.2c-1.8-1.5-3.8-2.6-5.9-3.5c-5.4-2.4-11.1-4.2-16.3-7.3c-8.3-5-13.6-11.8-13-22    c0.7-11.5,7.2-18.6,17.7-22.4c4.3-1.6,4.4-1.5,4.4-6c0-1.5,0-3.1,0-4.6c0.1-3.4,0.7-4,4.1-4.1c1.1,0,2.1,0,3.2,0    C229.6,187.25,229.6,187.25,229.7,194.55z M368.4,245.05c0,12.9-10.5,23.4-23.4,23.4s-23.4-10.5-23.4-23.4s10.5-23.4,23.4-23.4    S368.4,232.15,368.4,245.05z M99.5,221.65c12.9,0,23.4,10.5,23.4,23.4s-10.5,23.4-23.4,23.4s-23.4-10.5-23.4-23.4    S86.6,221.65,99.5,221.65z M0,344.15v-198.2c0-21.2,17.3-38.5,38.5-38.5H406c21.2,0,38.5,17.3,38.5,38.5v121.5h-32.9v-79.9    c-3.1,0.8-6.3,1.2-9.6,1.2c-21.5,0-39-17.5-39-39c0-3.3,0.4-6.5,1.2-9.5H78.1c0.4,2.3,0.7,4.7,0.7,7.2c0,21.5-17.5,39-39,39    c-2.3,0-4.6-0.2-6.8-0.6v118.4c2.2-0.4,4.5-0.6,6.8-0.6c21.5,0,39,17.5,39,39c0,2.5-0.2,4.8-0.7,7.2h228.5v32.9h-268    C17.3,382.65,0,365.35,0,344.15z M439.6,355.05c2.7,0,4.9,2.2,4.9,4.9v17.8c0,2.7-2.2,4.9-4.9,4.9h-118c-2.7,0-4.9-2.2-4.9-4.9    v-17.8c0-2.7,2.2-4.9,4.9-4.9H439.6z M462.5,343.95h-118c-2.7,0-4.9-2.2-4.9-4.9v-17.8c0-2.7,2.2-4.9,4.9-4.9h118    c2.7,0,4.9,2.2,4.9,4.9v17.8C467.4,341.75,465.2,343.95,462.5,343.95z M490.2,282.55v17.8c0,2.7-2.2,4.9-4.9,4.9h-118    c-2.7,0-4.9-2.2-4.9-4.9v-17.8c0-2.7,2.2-4.9,4.9-4.9h118C488,277.65,490.2,279.85,490.2,282.55z" />
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

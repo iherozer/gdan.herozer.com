@@ -1,0 +1,24 @@
+{
+  "name": "gdan.herozer.com",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://gdan.herozer.com/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "watch": "vite build -w",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist --cname gdan.herozer.com"
+  },
+  "author": "CoderTJP & herozer",
+  "devDependencies": {
+    "alpinejs": "^3.14.7",
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.2.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "vite": "^6.0.1"
+  }
+}
