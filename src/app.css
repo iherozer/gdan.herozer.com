@@ -1,5 +1,13 @@
 @tailwind base;
 @tailwind components;
+
+@font-face {
+  font-family: 'Pusab';
+  src: url('./fonts/Pusab/PUSAB___.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind utilities;
 
 [x-cloak] {
