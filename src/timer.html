@@ -1,4 +1,4 @@
-<html>
+<html class="bg-transparent">
 
 <head>
     <title>herozer</title>
@@ -60,9 +60,9 @@
 
         this.time = prefix + (prefix.length > 0 ? '<br />' : '') + [hours, minutes, seconds].map((t)=>`${t}`.length < 2 ? '0' + t : t).join('\:');
     }
-}" class="bg-transparent flex items-center justify-center h-screen bg-gray-100 font-pusab text-white">
-    <div class="m-auto h-fit w-fit">
-        <p x-html="time" class="text-7xl outline text-center"></p>
+}" class="bg-transparent flex items-center justify-center h-screen font-pusab text-white">
+    <div>
+        <p x-html="time" class="text-7xl text-stroke text-center"></p>
     </div>
 </body>
 

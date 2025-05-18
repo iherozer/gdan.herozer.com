@@ -13,7 +13,7 @@ export default {
     plugins: [
         plugin(function ({ addUtilities }) {
             addUtilities({
-                '.outline': {
+                '.text-stroke': {
                     '-webkit-text-stroke': '2px black',
                 },
             })
