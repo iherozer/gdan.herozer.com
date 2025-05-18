@@ -25,12 +25,8 @@
     time: '',
     startTime: '1748102400000',
     endTime: '1748188800000',
+    interval: null,
     init() {
-        if (this.hasEnded) {
-            this.time = 'Event is over!'
-            return;
-        }
-
         this.updateTimer();
         setInterval(() => {
             this.updateTimer();
@@ -43,6 +39,11 @@
         return this.startTime - Date.now() <= 0;
     },
     updateTimer() {
+        if (this.hasEnded) {
+            this.time = 'Event is over!';
+            clearInterval(this.interval);
+            return;
+        }
         let timestamp, prefix = '';
         if (!this.hasStarted && !this.hasEnded) {
             timestamp = this.startTime;
