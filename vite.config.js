@@ -11,6 +11,7 @@ export default defineConfig({
       "input": {
         "main": path.resolve(__dirname, 'src/index.html'),
         "timer": path.resolve(__dirname, 'src/timer.html'),
+        "raised": path.resolve(__dirname, 'src/raised.html'),
       }
     }
   }
